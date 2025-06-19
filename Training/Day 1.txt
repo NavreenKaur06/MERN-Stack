@@ -1,0 +1,50 @@
+Day 1 - [19th June 2025]
+
+ TOPICS COVERED (HTML BASICS)
+
+Introduction to HTML:
+HTML (HyperText Markup Language) is the standard language for creating web pages. It defines the structure and content of a web document.
+
+Basic Structure of an HTML Page:
+An HTML page starts with <!DOCTYPE html> declaration, followed by <html>, <head>, and <body> tags that define the overall structure.
+
+HTML Elements:
+HTML uses tags (like <p>, <a>, <img>) to define and display different types of content.
+
+Attributes:
+Attributes provide additional information about elements. Examples: href for links, src for images, alt for image descriptions.
+
+Headings & Paragraphs:
+HTML offers six levels of headings <h1> to <h6> for titles and sections, and <p> for paragraphs of text.
+
+Links:
+The <a> tag is used to create hyperlinks that connect to other pages or websites using the href attribute.
+
+Images:
+The <img> tag is used to display images on a webpage. It uses src (image source) and alt (alternative text) attributes.
+
+HTML Lists:
+HTML provides ordered lists <ol> (numbered) and unordered lists <ul> (bulleted) to display items in a list format.
+
+Tables:
+The <table> element is used to display tabular data. It is structured using <tr> (table row), <td> (table data), and <th> (table header).
+
+Forms:
+The <form> tag is used to collect user input. It can contain various input fields and controls for data submission.
+
+Input Types:
+Common input types include text, password, email, number, and more for different types of user data.
+
+Labels & Buttons:
+The <label> tag associates text with form controls, and <button> is used for clickable buttons for user interaction.
+
+HTML5 Semantic Elements:
+Elements like <header>, <footer>, <section>, <article>, etc., provide meaning to the page structure for better readability and accessibility.
+
+TOOLS USED
+
+Visual Studio Code (VS Code)
+Chrome Browser (Live Preview)
+
+TASK FOR TOMORROW
+Prepare the Introduction to CSS — understanding styles, types of CSS, and basic syntax.
