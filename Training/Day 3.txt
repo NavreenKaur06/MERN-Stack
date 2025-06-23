@@ -1,0 +1,65 @@
+Day 3 – 23rd June 2025
+
+Topics Covered:
+
+1. Flexbox (Flexible Box Layout):
+Flexbox is a one-dimensional layout model used to arrange elements in rows or columns.
+
+Basic Properties:
+display: flex;
+flex-direction: row / column;
+justify-content: center / space-between / space-around / flex-start / flex-end;
+align-items: center / stretch / flex-start / flex-end;
+
+2. JavaScript Operators:
+Operators are symbols used to perform operations on values and variables.
+
+Types:
+Arithmetic: +, -, *, /, %
+Assignment: =, +=, -=, *=, /=
+Comparison: ==, ===, !=, >, <, >=, <=
+Logical: &&, ||, !
+
+3. JavaScript if-else Conditions:
+Used to perform different actions based on different conditions.
+
+Syntax:
+if (condition) {
+// code to run if condition is true
+} else {
+// code to run if condition is false
+}
+
+4. ICON Framework
+ICON is a lightweight and responsive UI component framework used for building clean and modern interfaces using pre-built classes and styles.
+
+Common Features:
+Pre-designed buttons, cards, forms, and layout grids.
+Utility classes for margin, padding, color, typography.
+Works well with HTML & CSS without heavy configuration.
+
+ICON Framework Code Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ICON Framework Example</title>
+  <link rel="stylesheet" href="https://cdn.iconframework.com/icon.min.css">
+</head>
+<body>
+
+  <div class="icon-container">
+    <div class="icon-card">
+      <h2 class="icon-title">Welcome</h2>
+      <p>This card is styled with ICON Framework.</p>
+      <button class="icon-btn icon-btn-primary">Click Me</button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+Tools Used:
+Visual Studio Code (VS Code)
+Chrome Browser with Live Server
+ICON Framework CDN/Styles
