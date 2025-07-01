@@ -1,0 +1,41 @@
+Day 9 – [1st July 2025]
+
+TOPICS COVERED
+
+JavaScript DOM
+
+1. innerText
+Gets or sets the visible text content of an element, excluding hidden elements and considering CSS styles.
+
+2. textContent
+Gets or sets all text content of an element, including hidden text. Slightly faster than innerText as it does not consider styling.
+
+3. innerHTML
+Gets or sets the HTML content inside an element. It can read or replace HTML tags and content within.
+
+4. getAttribute()
+Used to get the value of an attribute of an HTML element.
+Example: Get the src of an image or the href of a link.
+
+5. setAttribute()
+Used to set or update an attribute of an element.
+Example: Change the id, class, or src dynamically.
+
+6. Adding Elements (Creating Nodes)
+Using methods like:
+document.createElement() to create a new element.
+appendChild() to add it as the last child.
+insertBefore() to insert before a specific node.
+innerHTML += to add content (not preferred for nodes).
+7. Removing Elements
+removeChild() to remove a specific child node from its parent.
+element.remove() directly removes the element from DOM.
+
+8. DOM Events
+Events are actions like click, input, submit, mouseover, keydown etc. You can:
+Use onclick, onchange in HTML directly, or
+Use addEventListener() method for better practice to attach event handlers dynamically.
+
+ TOOLS USED
+Visual Studio Code (VS Code)
+Google Chrome (Developer Tools – Elements tab, Console tab)
