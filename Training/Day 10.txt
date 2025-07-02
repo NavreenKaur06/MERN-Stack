@@ -1,0 +1,36 @@
+Day 10 – [2nd July 2025]
+
+TOPICS COVERED
+
+JavaScript Asynchronous Concepts
+
+1. JavaScript is Single Threaded
+JavaScript has a single call stack; it executes one task at a time in order.
+However, asynchronous operations like setTimeout, setInterval, fetch use the event loop and callback queue to handle delays without blocking main execution.
+
+2. setTimeout
+Executes a function once after a specified delay (in milliseconds).
+Used to delay execution without freezing the entire program.
+
+3. setInterval
+Executes a function repeatedly after each specified interval until cleared.
+Useful for timers, animations, or periodic updates.
+
+4. fetch function with async and await
+fetch() is used to make HTTP requests (GET, POST, etc.) and returns a Promise.
+Using async/await with fetch makes asynchronous code look synchronous and easier to read:
+async before a function makes it return a Promise.
+await pauses execution inside an async function until the Promise resolves.
+
+ TOOLS USED
+Visual Studio Code (VS Code)
+Google Chrome (Developer Tools – Console and Network tabs)
+
+ TASK
+Read and understand:
+try and catch blocks
+How to handle errors in JavaScript
+💡 Use Hoppscotch to try an API request
+➤ Visit https://hoppscotch.io
+➤ Make a GET request
+Observe the JSON response and match it with the output from fetch() in your JavaScript code
