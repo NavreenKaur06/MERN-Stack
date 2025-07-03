@@ -1,0 +1,37 @@
+Day 11 – [3rd July 2025]
+
+TOPICS COVERED
+
+JavaScript Error Handling
+
+1. try and catch blocks
+Used to handle errors gracefully in JavaScript.
+try contains the code that might cause an error.
+catch handles the error if it occurs, preventing program crash.
+
+Example concept:
+If any error occurs inside try, control immediately jumps to catch.
+
+React.js – Introduction
+
+1. What is React.js?
+A JavaScript library for building user interfaces (UI), especially single-page applications.
+
+Developed by Facebook, focuses on component-based architecture and fast rendering using Virtual DOM.
+
+2. Setting up a React Project
+The easiest way is using Create-React-App, a tool that sets up everything automatically.
+
+It provides a working React environment with build tools and folder structure.
+
+3. JSX
+Stands for JavaScript XML.
+Allows writing HTML-like syntax directly inside JavaScript.
+Makes defining UI components easier and readable in React.
+JSX is transpiled to regular JavaScript using tools like Babel.
+
+ TOOLS USED
+Visual Studio Code (VS Code)
+Node.js and npm
+Google Chrome (Developer Tools)
+Create-React-App for React setup
