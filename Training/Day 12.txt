@@ -1,0 +1,32 @@
+Day 12 – [4th July 2025]
+
+ TOPICS COVERED
+
+React.js Advanced Basics
+1. Restructuring (Destructuring) in React
+Destructuring is used to extract values from objects or arrays into separate variables easily.
+
+In React, it is commonly used:
+•To extract props in functional components for cleaner code.
+•To extract values from state objects.
+•Example concept (no code):
+Instead of writing props.name, you destructure as const { name } = props.
+
+2. useScript (Custom Hook for Loading External Scripts)
+useScript is not a built-in React hook. It is a custom hook pattern used to dynamically load external scripts (like third-party libraries) in React apps.
+
+Helps in:
+•Integrating external JavaScript libraries easily.
+•Loading scripts only when needed, improving performance.
+•Example concept:
+If you want to use a library like PayPal SDK, you can create a useScript hook to load its script tag dynamically in a component.
+
+Why useScript is important?
+• Keeps component code clean
+• Avoids global script tags in HTML
+• Ensures scripts load only when that component mounts
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Node.js and npm
+React (with functional components and hooks)
