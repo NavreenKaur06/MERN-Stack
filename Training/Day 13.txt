@@ -1,0 +1,30 @@
+Day 13 – [7th July 2025]
+
+TOPICS COVERED
+
+React.js Concepts
+1. Reconciliation
+What is it?
+Reconciliation is the process by which React updates the DOM efficiently when the state or props of a component change.
+
+How does it work?
+React creates a virtual DOM (a lightweight copy of the real DOM). When changes occur:
+•It compares the new virtual DOM with the previous one (diffing).
+•Only the changed parts are updated in the real DOM (efficient updates).
+
+Why is it important?
+Improves performance by avoiding full page reloads and unnecessary DOM manipulations.
+
+2. Async Nature of useState
+What is it?
+useState updates are asynchronous. When you call the state update function, React does not immediately update the state value.
+
+Why?
+React batches state updates for performance. The updated state value is available after re-rendering.
+
+Important Point:
+If you try to read the state immediately after updating it in the same function, you will still get the old value. Use useEffect or check after re-render to get the updated value.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+React (Functional components, useState, useEffect)
