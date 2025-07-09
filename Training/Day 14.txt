@@ -1,0 +1,29 @@
+Day 14 – [9th July 2025]
+
+TOPICS COVERED
+
+React.js Routing and Forms
+1. React Router
+What is React Router?
+A library used for routing in React applications. It allows you to navigate between different pages/components without reloading the page.
+
+Key concepts:
+•BrowserRouter: Wraps your entire app to enable routing.
+•Routes and Route: Defines different paths and which component to render for each path.
+•Link: Used to navigate between routes without reloading.
+
+Why is it used?
+For building Single Page Applications (SPA) with multiple views and seamless navigation.
+
+2. Reading Input Data using useState
+How to read input data?
+Use useState to create a state variable to store input value.
+Use the onChange event to update state as the user types.
+
+Why use useState for inputs?
+It makes input elements controlled components, ensuring React has full control over their data, enabling validation, dynamic updates, and form submissions.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+React (useState, React Router)
+react-router-dom library
