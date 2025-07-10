@@ -1,0 +1,37 @@
+Day 15 – [10th July 2025]
+
+TOPICS COVERED
+
+React.js State Management
+1. Uplifting the State
+What is it?
+Moving state up to a common parent component when multiple child components need to access or modify it.
+
+Why is it used?
+To ensure data consistency and shared state between sibling components.
+
+Example concept:
+If two child components need the same data, maintain the state in their parent and pass it down as props.
+
+2. Props Drilling
+What is it?
+Passing props through multiple levels of components even if intermediate components don’t need it, just to reach a deeply nested component.
+
+Why is it problematic?
+Makes code harder to maintain, increases dependency, and leads to messy prop chains.
+
+3. Context API
+What is it?
+A built-in React feature that allows you to share data globally across components without props drilling.
+
+How does it work?
+Create Context: Using React.createContext().
+Provider: Wraps components to provide the value.
+Consumer: Components that need to use the value access it using useContext().
+
+Why use Context API?
+Simplifies state sharing in large apps, avoids props drilling, and improves code readability.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+React (useState, useContext, Context API)
