@@ -1,0 +1,43 @@
+Day 16 – [11th July 2025]
+
+TOPICS COVERED
+
+React.js and Backend Introduction
+1. Context API (Revision)
+What is Context API?
+A React feature to manage and share state globally without prop drilling.
+Key steps:
+•Create context using React.createContext().
+•Use Provider to wrap components and provide data.
+•Use useContext hook to consume data in any child component.
+
+Why use it?
+Simplifies state sharing in large component trees.
+
+2. Dynamic Routing (React Router)
+What is dynamic routing?
+Creating routes with dynamic parameters to handle pages like user profiles, product details, etc.
+
+How does it work?
+Use :param syntax in route path (e.g. /user/:id).
+Access the dynamic value using hooks like useParams from react-router-dom.
+
+Why is it useful?
+Enables building flexible pages that render based on URL parameters.
+
+3. Backend – Introduction
+What is backend?
+The server-side part of an application that handles database operations, APIs, authentication, and business logic.
+
+Technologies used:
+Languages: Node.js (JavaScript), Python, PHP, Java, etc.
+Databases: MongoDB, MySQL, PostgreSQL, etc.
+API frameworks: Express.js (Node.js), Django/Flask (Python).
+
+Why learn backend?
+To build full-stack applications where frontend communicates with backend for dynamic data, user authentication, and data storage.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+React (Context API, React Router)
+Node.js and Express.js (for backend introduction)
