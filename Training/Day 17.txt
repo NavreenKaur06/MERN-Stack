@@ -1,0 +1,44 @@
+Day 17 – [14th July 2025]
+
+TOPICS COVERED
+
+Backend – Databases and Tools
+
+1. MongoDB Atlas
+What is it?
+A cloud-based MongoDB service provided by MongoDB Inc.
+
+Why use Atlas?
+•No need to install MongoDB locally
+•Accessible from anywhere
+•Easy to create, manage, and scale databases
+•Provides security, backups, and monitoring features
+
+Usage:
+You create a cluster on Atlas, get the connection string, and use it in your Node.js/Express.js projects to connect to your cloud database.
+
+2. MongoDB Compass
+What is it?
+A GUI tool for MongoDB to visualize, manage, and query your databases.
+
+Why use Compass?
+•Easy to connect to local or Atlas databases
+•View collections, documents, schemas
+•Perform CRUD operations without writing queries manually
+
+3. Nodemon
+What is Nodemon?
+A utility that automatically restarts your Node.js server whenever you make changes to your code files.
+
+Why use Nodemon?
+Saves time by avoiding manual stopping and restarting of server after every code change.
+
+How to use it?
+Install globally or in your project and run your app with nodemon instead of node.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Node.js and npm
+MongoDB Atlas (cloud database)
+MongoDB Compass (GUI client)
+Nodemon (for auto-reloading server)
