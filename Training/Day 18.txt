@@ -1,0 +1,60 @@
+Day 18 – [15th July 2025]
+
+TOPICS COVERED
+
+Backend – Mongoose and Express.js
+1. Mongoose
+What is it?
+An ODM (Object Data Modeling) library for MongoDB and Node.js.
+
+Why use Mongoose?
+•Simplifies MongoDB commands
+•Provides schema-based structure to collections
+•Includes built-in validation, query building, and middleware support
+
+2. Schema (in Mongoose)
+What is Schema?
+Defines the structure of documents in a MongoDB collection (fields, data types, validation rules).
+
+Why use Schema?
+Enforces consistency in your database data and simplifies CRUD operations in code.
+
+3. Middleware (in Express.js)
+What is Middleware?
+Functions that run between the request and response cycle.
+
+Uses:
+•Logging
+•Authentication
+•Parsing request bodies
+•Error handling
+
+Example concept:
+app.use() to use middleware globally or define middleware for specific routes.
+4. params
+What is params?
+Route parameters used to capture values from URL segments (e.g. /user/:id).
+
+Usage:
+Accessed using req.params in route handlers.
+
+5. query
+
+What is query?
+Data sent via URL query string (e.g. /search?name=Navreen).
+
+Usage:
+Accessed using req.query in Express routes.
+
+6. body
+What is body?
+Data sent in the body of POST, PUT, or PATCH requests.
+
+Usage:
+Accessed using req.body. Requires middleware like express.json() to parse JSON data.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Node.js and npm
+Express.js
+MongoDB Atlas + Mongoose
