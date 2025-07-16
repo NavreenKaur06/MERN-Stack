@@ -1,0 +1,67 @@
+Day 19 – [16th July 2025]
+
+TOPICS COVERED
+
+Backend – Mongoose, Security, and HTTP Concepts
+
+1. Exporting in Mongoose
+What is it?
+In Mongoose, you define models using schemas. The models are then exported for use in other parts of the application.
+
+How to export?
+Example:
+const mongoose = require('mongoose');
+const userSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+});
+const User = mongoose.model('User', userSchema);
+module.exports = User;
+
+Why use it?
+Allows importing and using the model in other parts of your backend code for CRUD operations.
+
+2. HTTP Messages
+What are HTTP messages?
+HTTP messages are sent between the client and server. They consist of requests (client) and responses (server).
+
+Key parts:
+Request Message: Contains method (GET, POST, etc.), URL, headers, and body (optional).
+
+Response Message: Contains status code (200 OK, 404 Not Found, etc.), headers, and body.
+
+3. Hashing and Encryption
+What is Hashing?
+Hashing is a one-way transformation of data into a fixed-size string of characters. Hashing is used for passwords to store them securely.
+
+What is Encryption?
+Encryption is a two-way process that transforms data into a readable format only when decrypted. It is used to protect sensitive data in transit.
+
+4. bcrypt (Hashing and SaltRounds)
+What is bcrypt?
+A popular library used for hashing passwords in a secure way. It adds a salt (random data) to make the hash more secure.
+
+SaltRounds:
+The number of rounds bcrypt runs to generate the hash. More rounds increase security but also take more time to compute.
+
+Example of hashing with bcrypt:
+const bcrypt = require('bcrypt');
+const saltRounds = 10; // Number of salt rounds
+
+bcrypt.hash('myPassword', saltRounds, function(err, hash) {
+  console.log(hash); // hashed password
+});
+
+Why use bcrypt?
+Protects user passwords by hashing them and preventing plain-text storage.
+TOOLS USED
+Visual Studio Code (VS Code)
+Node.js, bcrypt
+Express.js
+MongoDB + Mongoose
+
+TASK
+For tomorrow, read and understand:
+Tokens (JWT)
+Cookies in HTTP requests and responses
+HTTP headers, Authentication vs Authorization
