@@ -1,0 +1,44 @@
+Day 21 – [18th July 2025]
+
+TOPICS COVERED
+
+Backend – CRUD Operations and Authentication
+
+1. CRUD Operations (Using Mongoose)
+What is CRUD?
+Basic operations to manage data in a database:
+Create: Adding new data (e.g. user registration).
+Read: Retrieving data (e.g. get user profile).
+Update: Modifying existing data (e.g. edit profile).
+Delete: Removing data (e.g. delete account).
+
+Why is CRUD important?
+Forms the backbone of any backend application dealing with databases.
+
+2. Token (JWT – JSON Web Token)
+What is a token?
+A string of data used for authentication. After login, the server sends a token to the client, which is then used for further requests.
+
+What is JWT?
+JSON Web Token – a secure way to transmit information between parties as a JSON object.
+
+Why use JWT?
+•Stateless authentication (no need to store session on server).
+•Can store user info securely with signature verification.
+
+3. Header-Based Authentication
+What is it?
+Sending tokens in the HTTP headers (usually in the Authorization header) for authenticating protected routes.
+
+How it works?
+•Client sends request with token in headers: Authorization: Bearer <token>
+•Server verifies the token to grant or deny access.
+
+Why use header-based authentication?
+Keeps tokens secure, prevents exposure in URLs or body, and is widely used in APIs.
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Node.js, Express.js
+MongoDB + Mongoose
+JWT (jsonwebtoken package)
