@@ -1,0 +1,56 @@
+Day 22 – [21st July 2025]
+
+TOPICS COVERED
+
+Backend and Frontend – APIs and Tools
+
+1. Making Protected Routes (Header-Based Authentication)
+What is a protected route?
+A route that requires the user to be authenticated before accessing it.
+
+How to make it protected?
+Step 1: User logs in and receives a JWT token.
+Step 2: Client sends requests to protected routes with token in Authorization header:
+Authorization: Bearer <token>
+Step 3: In backend, create middleware to check token:
+Extract token from header.
+Verify it using JWT.
+If valid, allow access to route. Else, return an error.
+
+Why use protected routes?
+To keep sensitive data or user-specific actions secure and accessible only to authorized users.
+
+2. Toastr
+What is Toastr?
+A JavaScript library for non-blocking notifications (pop-up alerts) in web apps.
+
+Why use Toastr?
+Provides quick success, error, or info messages to users with attractive styling.
+
+3. Axios
+What is Axios?
+A popular HTTP client library for making API requests from the frontend (React, Angular, etc.) or Node.js.
+
+Why use Axios?
+•Simple syntax for GET, POST, PUT, DELETE requests.
+•Returns Promises for easy asynchronous handling.
+•Automatically converts JSON data.
+
+4. CORS (Cross-Origin Resource Sharing)
+What is CORS?
+A security feature in browsers that restricts requests from one origin to another unless explicitly allowed by the server.
+
+Why do we need it?
+If your frontend (e.g. localhost:3000) requests data from backend API (e.g. localhost:5000), CORS must be enabled on backend to allow such cross-origin requests.
+
+How to handle it?
+Use CORS middleware in Express.js:
+const cors = require('cors');
+app.use(cors());
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Node.js, Express.js
+React (for frontend using Axios, Toastr)
+JWT for authentication
+CORS package
