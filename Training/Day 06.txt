@@ -1,0 +1,92 @@
+Day 6 – [26th June 2025]
+
+TOPICS COVERED
+
+ JavaScript Arrays (Advanced)
+
+1. Shallow Copy Copies only the top-level values. Changes in the copied array affect the original for non-primitives (like objects).
+
+let arr1 = [1, 2, 3];
+let copy1 = arr1;
+copy1.push(4);
+console.log(arr1);  // [1, 2, 3, 4]
+
+2. Deep Copy Creates a completely independent copy.
+
+let arr1 = [1, 2, 3];
+let copy2 = JSON.parse(JSON.stringify(arr1));
+copy2.push(4);
+console.log(arr1);  // [1, 2, 3]
+
+3. for...of loop Used to iterate through elements of an array.
+
+let colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
+
+JavaScript Objects
+
+1. Empty Object
+let obj = {};
+
+2. Object Initialization
+let student = {
+  name: "Navreen",
+  age: 21
+};
+
+3. Insertion
+student.course = "JavaScript";
+
+4. Deletion
+delete student.age;
+
+5. Object of Objects
+let school = {
+  student1: { name: "Aman", age: 20 },
+  student2: { name: "Simran", age: 22 }
+};
+
+6. Array of Objects
+let students = [
+  { name: "Navreen", age: 21 },
+  { name: "Aman", age: 20 }
+];
+
+ JavaScript Functions
+Function Declaration + Parameters + Output Example
+
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+greet("Navreen");  // Output: Hello, Navreen!
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(3, 4));  // Output: 7
+
+Inbuilt Math Functions
+
+Function	Description
+Math.random()	Returns a number between 0 and 1
+Math.floor()	Rounds down
+Math.ceil()	Rounds up
+Math.PI	Value of π
+Math.E	Euler's constant (≈ 2.718)
+
+ TASKS
+1. Generate a Random Number Between 1-10
+let num = Math.floor(Math.random() * 10) + 1;
+console.log(num);  // Output: Any number between 1 and 10
+
+2. Generate 4-digit OTP
+let otp = Math.floor(1000 + Math.random() * 9000);
+console.log("OTP:", otp);  // Output: e.g., 4827
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Chrome Browser (JavaScript Console)
