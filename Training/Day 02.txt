@@ -1,0 +1,68 @@
+Day 2 – [20th June 2025]
+
+ TOPICS COVERED (CSS BASICS)
+
+Introduction to CSS
+CSS (Cascading Style Sheets) is used to style and enhance the visual appearance of HTML elements on a webpage.
+
+CSS Syntax
+A CSS rule consists of a selector and a declaration block. Example:
+
+h1 { color: blue; font-size: 24px; }
+
+Box Model
+Every HTML element is considered as a box consisting of:
+
+Content
+
+Padding (space inside the element, around the content)
+
+Border
+
+Margin (space outside the element)
+
+CSS Colors
+Colors can be applied using:
+
+Names (e.g., red, blue)
+
+HEX values (#ff0000)
+
+RGB values (rgb(255, 0, 0))
+
+Backgrounds
+Used to set background color, image, gradient, etc.
+
+body { background-color: lightgray; }
+
+Borders
+Used to outline elements:
+
+border: 2px solid black;
+
+Margins & Padding
+
+margin: Creates space outside the element
+
+padding: Creates space inside the element
+
+CSS Display
+Defines how elements are displayed:
+
+block, inline, inline-block, none, flex, grid
+
+CSS Positioning
+Defines how elements are positioned:
+
+static (default)
+relative
+absolute
+fixed
+sticky
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Chrome Browser with Live Server
+
+TASK FOR TOMORROW
+Read and understand the basic Flexbox properties (display: flex, justify-content, align-items, etc.)
