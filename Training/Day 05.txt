@@ -1,0 +1,86 @@
+Day 5 – [25th June 2025]
+
+TOPICS COVERED
+
+ JavaScript Strings
+1. .trim()
+Removes spaces from both ends of a string.
+
+let str = "  Hello World  ";
+console.log(str.trim());  // "Hello World"
+
+2. .indexOf()
+Gives the index of the first match of a substring. Returns -1 if it doesn't exist.
+
+let msg = "JavaScript";
+console.log(msg.indexOf("S"));  // 4  
+console.log(msg.indexOf("z"));  // -1
+
+3. Method Chaining
+Apply multiple string methods in one go.
+
+let name = "  Navreen  ";
+console.log(name.trim().toUpperCase());  // "NAVREEN"
+
+4. .slice()
+Returns part of a string from the start index up to (but not including) the end index.
+
+let fruit = "Mango";
+console.log(fruit.slice(1, 4));  // "ang"
+
+ Prompt and Alert
+
+prompt()
+Used to take user input via a popup box.
+
+let username = prompt("Enter your name:");
+alert()
+Displays a message to the user in a popup.
+
+alert("Hello, " + username + "!");
+
+JavaScript Arrays
+
+1. Array Initialization
+let arr = [1, 2, 3];  
+let names = new Array("Navreen", "Nav");
+
+2. Insert Elements
+arr.push(4);       // Add at the end  
+arr.unshift(0);    // Add at the beginning
+
+3. Delete Elements
+arr.pop();         // Remove last element  
+arr.shift();       // Remove first element
+
+4. .slice()
+Returns a new subarray (non-destructive).
+
+let sliced = arr.slice(1, 3);  // Elements from index 1 to 2
+
+5. .splice()
+Adds or removes items at a specific index and alters the original array.
+
+Syntax:
+array.splice(startIndex, deleteCount, item1, item2, ..., itemN);
+
+Example:
+let nums = [1, 5];  
+nums.splice(1, 0, 2, 3, 4);  
+console.log(nums);  // [1, 2, 3, 4, 5]
+
+6. Array References
+Arrays are assigned by reference, not by value.
+
+let a = [1, 2];  
+let b = a;  
+b.push(3);  
+console.log(a);  // [1, 2, 3]
+
+TOOLS USED
+Visual Studio Code (VS Code)
+Google Chrome (Developer Console)
+
+TASK
+Study JavaScript functions and objects.
+Learn how to define, invoke, and pass parameters to functions.
